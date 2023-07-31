@@ -1,0 +1,75 @@
+/* Import the font you want to use (example with Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Main container */
+.movieDetailsContainer {
+  padding: 20px;
+  
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  color: #bb1515;
+  font-family: 'Roboto', sans-serif; /* Use the imported font */
+}
+
+/* Movie title */
+.movieTitle {
+  font-size: 62px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Movie image */
+.movieImage {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid red;
+
+}
+
+/* Movie information */
+.movieInfo {
+  margin-top: 20px;
+}
+
+.movieInfoItem {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Book Ticket button */
+.bookTicketBtn {
+  background-color: #e74c3c; /* Red color */
+  color: #d32929;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Popup container (customized as per your Popup component) */
+.popupContainer {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}

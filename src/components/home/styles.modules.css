@@ -1,0 +1,19 @@
+/* styles.module.css */
+
+.logoutContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding-right: 20px; /* Adjust as needed to create space between the button and the edge */
+  }
+  
+  .logoutButton {
+    background-color: #f44336; /* Red color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
